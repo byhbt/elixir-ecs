@@ -1,0 +1,17 @@
+{
+  "skip_files": [
+    "lib/mix",
+    "lib/demo_elixir_app/application.ex",
+    "lib/demo_elixir_app/release_tasks.ex",
+    "lib/demo_elixir_app_web.ex",
+    "lib/demo_elixir_app_mail.ex",
+    "lib/demo_elixir_app_web/endpoint.ex",
+    "lib/demo_elixir_app_web/telemetry.ex",
+    "lib/demo_elixir_app_web/channels/user_socket.ex",
+    "lib/demo_elixir_app_web/views/error_helpers.ex",
+    "test/support"
+  ],
+  "coverage_options": {
+    "minimum_coverage": 100
+  }
+}

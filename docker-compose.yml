@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  build:
+    build:
+      context: .
+      cache_from:
+        - demo_elixir_app-build
+      target: build
+    image: demo_elixir_app-build
+
+  app:
+    build:
+      context: .
+      cache_from:
+        - demo_elixir_app-build
+        - demo_elixir_app
+      target: app
+    image: demo_elixir_app
