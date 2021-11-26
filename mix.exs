@@ -49,7 +49,6 @@ defmodule DemoElixirApp.MixProject do
       {:jason, "~> 1.0"},
       {:mimic, "~> 1.5.1", [only: :test]},
       {:mime, "~> 2.0.1", override: true},
-      {:nimble_template, "~> 3.0", path: "/Users/thanh/projects/elixir-templates"},
       {:phoenix, "~> 1.5.7"},
       {:phoenix_ecto, "~> 4.1"},
       {:phoenix_html, "~> 2.11"},
