@@ -8,7 +8,7 @@ defmodule DemoElixirApp.Application do
   def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      DemoElixirApp.Repo,
+      # DemoElixirApp.Repo,
       # Start the Telemetry supervisor
       DemoElixirAppWeb.Telemetry,
       # Start the PubSub system
