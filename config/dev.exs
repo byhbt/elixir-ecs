@@ -4,7 +4,7 @@ use Mix.Config
 config :demo_elixir_app, DemoElixirApp.Repo,
   username: "postgres",
   password: "postgres",
-  database: "demo_elixir_app_dev",
+  database: "demo_elixir_ecs_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
